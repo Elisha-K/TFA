@@ -1,0 +1,6 @@
+# Folders
+z-backups/
+
+# Files
+__pycache__/
+*.pyc

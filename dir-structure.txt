@@ -1,0 +1,21 @@
+~/TFA/
+│
+├── scripts/
+│   ├── feed-collector.py
+│   ├── nlp-filter.py
+│   ├── run-all.sh
+|   ├── config.py
+│
+├── feed-output/
+│   ├── otx_fed_paypal.ndjson
+│   ├── otx_operation_endgame.ndjson
+│   ├── otx_remcos_rat.ndjson
+│   ├── urlhaus_recent.ndjson
+│
+├── filter-output/
+│   └── filtered-feeds.ndjson
+│
+└── logs/
+    ├── cron.log
+    └── nlp_filter.log
+    └── feed-collector.log

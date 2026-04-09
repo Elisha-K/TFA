@@ -1,0 +1,68 @@
+===================================
+Pipeline started at: Sat  8 Nov 15:26:43 UTC 2025
+===================================
+/usr/bin/python3: can't open file '/home/elisha/TFA/feed-collector.py': [Errno 2] No such file or directory
+Pipeline completed at: Sat  8 Nov 15:26:43 UTC 2025
+
+===================================
+Pipeline started at: Sat  8 Nov 15:30:03 UTC 2025
+===================================
+2025-11-08 15:30:03,434 INFO Starting feed_collector.py
+2025-11-08 15:30:03,987 INFO No items returned for OTX endpoint api/v1/indicators/submitted_urls
+2025-11-08 15:30:04,430 INFO No items returned for OTX endpoint api/v1/indicators/submitted_files
+2025-11-08 15:30:04,924 INFO Wrote 66 items to ~/TFA/feed-output/otx_remcos_rat.ndjson
+2025-11-08 15:30:05,402 INFO Wrote 500 items to ~/TFA/feed-output/otx_operation_endgame.ndjson
+2025-11-08 15:30:06,386 INFO Wrote 500 items to ~/TFA/feed-output/otx_fed_paypal.ndjson
+2025-11-08 15:30:07,406 INFO Wrote 4 items to ~/TFA/feed-output/otx_endclient_rat.ndjson
+2025-11-08 15:30:09,163 INFO Wrote 1000 items to ~/TFA/feed-output/urlhaus_recent.ndjson
+2025-11-08 15:30:09,163 INFO Collection finished - total normalized items written: 2070
+Pipeline completed at: Sat  8 Nov 15:30:09 UTC 2025
+
+===================================
+Pipeline started at: Mon 17 Nov 17:05:49 UTC 2025
+===================================
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/pathlib.py", line 1175, in mkdir
+    self._accessor.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/var/ossec/etc/lists'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/elisha/TFA/scripts/convert-to-cdb.py", line 218, in <module>
+    main()
+  File "/home/elisha/TFA/scripts/convert-to-cdb.py", line 213, in main
+    parse_and_build_lists(FEED_FILE)
+  File "/home/elisha/TFA/scripts/convert-to-cdb.py", line 187, in parse_and_build_lists
+    Path(WAZUH_LIST_DIR).mkdir(parents=True, exist_ok=True)
+  File "/usr/lib/python3.10/pathlib.py", line 1184, in mkdir
+    if not exist_ok or not self.is_dir():
+  File "/usr/lib/python3.10/pathlib.py", line 1305, in is_dir
+    return S_ISDIR(self.stat().st_mode)
+  File "/usr/lib/python3.10/pathlib.py", line 1097, in stat
+    return self._accessor.stat(self, follow_symlinks=follow_symlinks)
+PermissionError: [Errno 13] Permission denied: '/var/ossec/etc/lists'
+Pipeline completed at: Mon 17 Nov 17:06:17 UTC 2025
+
+===================================
+Pipeline started at: Mon 24 Nov 08:05:26 UTC 2025
+===================================
+[INFO] Reading from /home/elisha/TFA/filter-output/filtered-feeds.ndjson...
+[OK] Completed converting to lists:
+     IPs: 0
+     URLs: 0
+     Domains: 0
+     Hashes: 0
+Pipeline completed at: Mon 24 Nov 08:07:28 UTC 2025
+
+===================================
+Pipeline started at: Mon 24 Nov 08:24:38 UTC 2025
+===================================
+[INFO] Reading from /home/elisha/TFA/filter-output/filtered-feeds.ndjson...
+[OK] Completed converting to lists:
+     IPs: 0
+     URLs: 19
+     Domains: 12
+     Hashes: 0
+Pipeline completed at: Mon 24 Nov 08:27:45 UTC 2025
+

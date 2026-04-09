@@ -1,0 +1,77 @@
+2025-11-08 16:46:26,526 - INFO - === Starting NLP Filter Script ===
+2025-11-08 16:46:26,526 - ERROR - Failed to load otx_endclient_rat.ndjson: name 'ndjson' is not defined
+2025-11-08 16:46:26,526 - ERROR - Failed to load urlhaus_recent.ndjson: name 'ndjson' is not defined
+2025-11-08 16:46:26,526 - ERROR - Failed to load otx_operation_endgame.ndjson: name 'ndjson' is not defined
+2025-11-08 16:46:26,526 - ERROR - Failed to load otx_fed_paypal.ndjson: name 'ndjson' is not defined
+2025-11-08 16:46:26,526 - ERROR - Failed to load otx_remcos_rat.ndjson: name 'ndjson' is not defined
+2025-11-08 16:46:26,526 - INFO - Filtered 0 IOCs using keywords ['phishing', 'ransomware', 'malware']
+2025-11-08 16:49:57,093 - INFO - === Starting NLP Filter Script ===
+2025-11-08 16:49:57,093 - INFO - Loaded 4 records from otx_endclient_rat.ndjson
+2025-11-08 16:49:57,182 - INFO - Loaded 2000 records from urlhaus_recent.ndjson
+2025-11-08 16:49:57,197 - INFO - Loaded 1000 records from otx_operation_endgame.ndjson
+2025-11-08 16:49:57,233 - INFO - Loaded 1000 records from otx_fed_paypal.ndjson
+2025-11-08 16:49:57,248 - INFO - Loaded 132 records from otx_remcos_rat.ndjson
+2025-11-08 16:49:57,295 - INFO - Filtered 2000 IOCs using keywords ['phishing', 'ransomware', 'malware']
+2025-11-08 16:49:57,308 - INFO - Wrote 2000 filtered IOCs to /home/elisha/TFA/filter-output/filtered-feeds.ndjson
+2025-11-08 16:49:57,308 - INFO - === NLP Filter Script Completed ===
+
+2025-11-08 16:57:54,302 - INFO - === Starting NLP Filter Script ===
+2025-11-08 16:57:54,303 - INFO - Loaded 4 records from otx_endclient_rat.ndjson
+2025-11-08 16:57:54,328 - INFO - Loaded 2000 records from urlhaus_recent.ndjson
+2025-11-08 16:57:54,340 - INFO - Loaded 1000 records from otx_operation_endgame.ndjson
+2025-11-08 16:57:54,351 - INFO - Loaded 1000 records from otx_fed_paypal.ndjson
+2025-11-08 16:57:54,352 - INFO - Loaded 132 records from otx_remcos_rat.ndjson
+2025-11-08 16:57:54,397 - INFO - Filtered 2188 IOCs using keywords ['phishing', 'ransomware', 'malware', 'command and control', 'trojan']
+2025-11-08 16:57:54,414 - INFO - Wrote 2188 filtered IOCs to /home/elisha/TFA/filter-output/filtered-feeds.ndjson
+2025-11-08 16:57:54,415 - INFO - === NLP Filter Script Completed ===
+
+2025-11-10 08:42:55,069 - INFO - === Starting NLP Filter ===
+2025-11-10 08:42:55,073 - INFO - Loaded 4 records from otx_endclient_rat.ndjson
+2025-11-10 08:42:55,104 - INFO - Loaded 2000 records from urlhaus_recent.ndjson
+2025-11-10 08:42:55,171 - INFO - Loaded 1000 records from otx_operation_endgame.ndjson
+2025-11-10 08:42:55,227 - INFO - Loaded 1000 records from otx_fed_paypal.ndjson
+2025-11-10 08:42:55,229 - INFO - Loaded 132 records from otx_remcos_rat.ndjson
+2025-11-10 08:42:55,283 - INFO - Filtered 4136 IOCs using keyword set: ['remcos', 'rat', 'c2', 'command and control', 'malware', 'trojan', 'phishing', 'paypal', 'stealer', 'spyware', 'botnet', 'mozi']
+2025-11-10 08:42:55,438 - INFO - Wrote 4136 records to /home/elisha/TFA/filter-output/filtered-feeds.ndjson
+2025-11-10 08:42:55,438 - INFO - === NLP Filter Complete ===
+
+2025-11-10 08:49:02,478 - INFO - === Starting NLP Filter ===
+2025-11-10 08:49:02,479 - INFO - Loaded 4 records from otx_endclient_rat.ndjson
+2025-11-10 08:49:02,500 - INFO - Loaded 2000 records from urlhaus_recent.ndjson
+2025-11-10 08:49:02,510 - INFO - Loaded 1000 records from otx_operation_endgame.ndjson
+2025-11-10 08:49:02,519 - INFO - Loaded 1000 records from otx_fed_paypal.ndjson
+2025-11-10 08:49:02,520 - INFO - Loaded 132 records from otx_remcos_rat.ndjson
+2025-11-10 08:49:02,576 - INFO - Filtered 2048 IOCs using keyword set: ['phishing', 'paypal', 'stealer', 'spyware', 'botnet', 'mozi']
+2025-11-10 08:49:02,656 - INFO - Wrote 2048 records to /home/elisha/TFA/filter-output/filtered-feeds.ndjson
+2025-11-10 08:49:02,656 - INFO - === NLP Filter Complete ===
+
+2025-11-17 17:06:14,000 - INFO - === Starting NLP Filter ===
+2025-11-17 17:06:14,065 - INFO - Loaded 8 records from otx_endclient_rat.ndjson
+2025-11-17 17:06:14,280 - INFO - Loaded 3000 records from urlhaus_recent.ndjson
+2025-11-17 17:06:14,351 - INFO - Loaded 1500 records from otx_operation_endgame.ndjson
+2025-11-17 17:06:14,529 - INFO - Loaded 1500 records from otx_fed_paypal.ndjson
+2025-11-17 17:06:14,656 - INFO - Loaded 194 records from otx_remcos_rat.ndjson
+2025-11-17 17:06:14,806 - INFO - Filtered 3114 IOCs using keyword set: ['phishing', 'paypal', 'stealer', 'spyware', 'botnet', 'mozi']
+2025-11-17 17:06:15,157 - INFO - Wrote 3114 records to /home/elisha/TFA/filter-output/filtered-feeds.ndjson
+2025-11-17 17:06:15,157 - INFO - === NLP Filter Complete ===
+
+2025-11-24 08:07:22,219 - INFO - === Starting NLP Filter ===
+2025-11-24 08:07:22,335 - INFO - Loaded 12 records from otx_endclient_rat.ndjson
+2025-11-24 08:07:24,098 - INFO - Loaded 4000 records from urlhaus_recent.ndjson
+2025-11-24 08:07:24,711 - INFO - Loaded 2000 records from otx_operation_endgame.ndjson
+2025-11-24 08:07:25,926 - INFO - Loaded 2000 records from otx_fed_paypal.ndjson
+2025-11-24 08:07:25,984 - INFO - Loaded 254 records from otx_remcos_rat.ndjson
+2025-11-24 08:07:26,072 - INFO - Filtered 0 IOCs using keyword set: ['spyware']
+2025-11-24 08:07:27,402 - INFO - Wrote 0 records to /home/elisha/TFA/filter-output/filtered-feeds.ndjson
+2025-11-24 08:07:27,403 - INFO - === NLP Filter Complete ===
+
+2025-11-24 08:25:21,222 - INFO - === Starting NLP Filter ===
+2025-11-24 08:25:21,222 - INFO - Loaded 16 records from otx_endclient_rat.ndjson
+2025-11-24 08:25:21,389 - INFO - Loaded 5000 records from urlhaus_recent.ndjson
+2025-11-24 08:25:21,408 - INFO - Loaded 2500 records from otx_operation_endgame.ndjson
+2025-11-24 08:25:21,510 - INFO - Loaded 2500 records from otx_fed_paypal.ndjson
+2025-11-24 08:25:21,513 - INFO - Loaded 314 records from otx_remcos_rat.ndjson
+2025-11-24 08:25:21,619 - INFO - Filtered 22 IOCs using keyword set: ['spyware', 'phishing']
+2025-11-24 08:25:21,620 - INFO - Wrote 22 records to /home/elisha/TFA/filter-output/filtered-feeds.ndjson
+2025-11-24 08:25:21,621 - INFO - === NLP Filter Complete ===
+

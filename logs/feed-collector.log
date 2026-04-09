@@ -1,0 +1,70 @@
+2025-11-08 16:35:17,439 INFO === Starting feed_collector.py ===
+2025-11-08 16:35:18,201 INFO No items returned for OTX endpoint api/v1/indicators/submitted_urls
+2025-11-08 16:35:18,869 INFO No items returned for OTX endpoint api/v1/indicators/submitted_files
+2025-11-08 16:35:19,576 ERROR Collector failed: [Errno 13] Permission denied: '/home/elisha/TFA/feed-output/otx_remcos_rat.ndjson'
+Traceback (most recent call last):
+  File "/home/elisha/TFA/scripts/./feed-collector.py", line 222, in <module>
+    run_collection()
+  File "/home/elisha/TFA/scripts/./feed-collector.py", line 193, in run_collection
+    write_ndjson(outfn, normalized)
+  File "/home/elisha/TFA/scripts/./feed-collector.py", line 85, in write_ndjson
+    with filename.open("a", encoding="utf-8") as f:
+  File "/usr/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+PermissionError: [Errno 13] Permission denied: '/home/elisha/TFA/feed-output/otx_remcos_rat.ndjson'
+2025-11-08 16:36:46,904 INFO === Starting feed_collector.py ===
+2025-11-08 16:36:47,404 INFO No items returned for OTX endpoint api/v1/indicators/submitted_urls
+2025-11-08 16:36:48,627 INFO No items returned for OTX endpoint api/v1/indicators/submitted_files
+2025-11-08 16:36:49,118 ERROR Collector failed: [Errno 13] Permission denied: '/home/elisha/TFA/feed-output/otx_remcos_rat.ndjson'
+Traceback (most recent call last):
+  File "/home/elisha/TFA/scripts/./feed-collector.py", line 222, in <module>
+    run_collection()
+  File "/home/elisha/TFA/scripts/./feed-collector.py", line 193, in run_collection
+    write_ndjson(outfn, normalized)
+  File "/home/elisha/TFA/scripts/./feed-collector.py", line 85, in write_ndjson
+    with filename.open("a", encoding="utf-8") as f:
+  File "/usr/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+PermissionError: [Errno 13] Permission denied: '/home/elisha/TFA/feed-output/otx_remcos_rat.ndjson'
+2025-11-08 16:42:11,613 INFO === Starting feed_collector.py ===
+2025-11-08 16:42:12,281 INFO No items returned for OTX endpoint api/v1/indicators/submitted_urls
+2025-11-08 16:42:12,852 INFO No items returned for OTX endpoint api/v1/indicators/submitted_files
+2025-11-08 16:42:13,340 INFO Wrote 66 items to /home/elisha/TFA/feed-output/otx_remcos_rat.ndjson
+2025-11-08 16:42:17,641 INFO Wrote 500 items to /home/elisha/TFA/feed-output/otx_operation_endgame.ndjson
+2025-11-08 16:42:18,494 INFO Wrote 500 items to /home/elisha/TFA/feed-output/otx_fed_paypal.ndjson
+2025-11-08 16:42:19,286 INFO Wrote 4 items to /home/elisha/TFA/feed-output/otx_endclient_rat.ndjson
+2025-11-08 16:43:49,132 INFO Interrupted by user.
+2025-11-17 17:05:58,635 INFO === Starting feed_collector.py ===
+2025-11-17 17:06:01,270 INFO No items returned for OTX endpoint api/v1/indicators/submitted_urls
+2025-11-17 17:06:01,760 INFO No items returned for OTX endpoint api/v1/indicators/submitted_files
+2025-11-17 17:06:03,490 INFO Wrote 62 items to /home/elisha/TFA/feed-output/otx_remcos_rat.ndjson
+2025-11-17 17:06:09,256 INFO Wrote 500 items to /home/elisha/TFA/feed-output/otx_operation_endgame.ndjson
+2025-11-17 17:06:10,166 INFO Wrote 500 items to /home/elisha/TFA/feed-output/otx_fed_paypal.ndjson
+2025-11-17 17:06:10,642 INFO Wrote 4 items to /home/elisha/TFA/feed-output/otx_endclient_rat.ndjson
+2025-11-17 17:06:13,201 INFO Wrote 1000 items to /home/elisha/TFA/feed-output/urlhaus_recent.ndjson
+2025-11-17 17:06:13,201 INFO Collection finished. Total normalized items: 2066
+2025-11-17 17:06:13,203 INFO === feed_collector.py Completed ===
+
+2025-11-24 08:05:27,246 INFO === Starting feed_collector.py ===
+2025-11-24 08:05:32,702 INFO No items returned for OTX endpoint api/v1/indicators/submitted_urls
+2025-11-24 08:05:41,248 INFO No items returned for OTX endpoint api/v1/indicators/submitted_files
+2025-11-24 08:05:44,331 INFO Wrote 60 items to /home/elisha/TFA/feed-output/otx_remcos_rat.ndjson
+2025-11-24 08:05:54,017 INFO Wrote 500 items to /home/elisha/TFA/feed-output/otx_operation_endgame.ndjson
+2025-11-24 08:06:08,301 INFO Wrote 500 items to /home/elisha/TFA/feed-output/otx_fed_paypal.ndjson
+2025-11-24 08:06:18,794 INFO Wrote 4 items to /home/elisha/TFA/feed-output/otx_endclient_rat.ndjson
+2025-11-24 08:06:53,970 WARNING GET https://urlhaus-api.abuse.ch/v1/urls/recent/ exception: HTTPSConnectionPool(host='urlhaus-api.abuse.ch', port=443): Read timed out. (read timeout=30)
+2025-11-24 08:07:19,616 INFO Wrote 1000 items to /home/elisha/TFA/feed-output/urlhaus_recent.ndjson
+2025-11-24 08:07:19,616 INFO Collection finished. Total normalized items: 2064
+2025-11-24 08:07:19,617 INFO === feed_collector.py Completed ===
+
+2025-11-24 08:24:38,627 INFO === Starting feed_collector.py ===
+2025-11-24 08:24:39,619 INFO No items returned for OTX endpoint api/v1/indicators/submitted_urls
+2025-11-24 08:24:41,438 INFO No items returned for OTX endpoint api/v1/indicators/submitted_files
+2025-11-24 08:24:42,765 INFO Wrote 60 items to /home/elisha/TFA/feed-output/otx_remcos_rat.ndjson
+2025-11-24 08:24:43,629 INFO Wrote 500 items to /home/elisha/TFA/feed-output/otx_operation_endgame.ndjson
+2025-11-24 08:24:47,010 INFO Wrote 500 items to /home/elisha/TFA/feed-output/otx_fed_paypal.ndjson
+2025-11-24 08:24:48,216 INFO Wrote 4 items to /home/elisha/TFA/feed-output/otx_endclient_rat.ndjson
+2025-11-24 08:25:21,168 INFO Wrote 1000 items to /home/elisha/TFA/feed-output/urlhaus_recent.ndjson
+2025-11-24 08:25:21,168 INFO Collection finished. Total normalized items: 2064
+2025-11-24 08:25:21,169 INFO === feed_collector.py Completed ===
+
